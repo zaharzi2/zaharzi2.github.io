@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cookie&family=Orbitron:wght@400..900&family=Permanent+Marker&family=Playwrite+RO:wght@100..400&family=Roboto+Slab:wght@100..900&family=Satisfy&family=Shadows+Into+Light&family=Tagesschrift&display=swap');
+
+
+img{
+    width: 100%;
+}
+.logo-img{
+    width: 50px;
+}
+h1{
+    text-align: center;
+      font-family: "Permanent Marker", cursive;
+
+}
+
+body{
+    background-image: url(fon.jpeg);
+}
+img{
+    box-shadow: 1px 0px 54px black;
+}p{
+    background-color: rgba(255, 255, 255, 0.329);
+    padding: 15px; 
+    font-family: "Roboto Slab", serif;
+  
+
+}
+nav{
+    background: linear-gradient(to right, red,rgb(250, 250, 250),blue);
+}
+.footer{
+    background-color: rgb(61, 3, 3);
+    padding: 30px 0px;
+    margin-top: 50px;
+}
+.socio-link{
+    font-size: 2rem;
+    color: antiquewhite;
+    margin: 10px;
+    text-decoration: none;
+}
+.socio-link:hover{
+    color: white;
+}
+.footer p{
+color: blanchedalmond;
+}
