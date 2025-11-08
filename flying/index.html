@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body{
+            margin: 0;
+        }
+.pole{
+    background-image: url(cloud.gif);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 75vh;
+    cursor:url(curs-2.png), crosshair;
+    position: relative;
+    user-select: none;
+
+}
+.img-bird{
+    width: 75px;
+    left: 75px;
+    position: absolute;
+}
+.div-rez img{
+    width: 50px;
+    user-select: none;
+}
+.div-rez{
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+    </style>
+</head>
+<body>
+    <div class="pole">
+        <img class="img-bird" src="shahed.png" alt="">
+    </div>
+<div class="div-rez">
+    <p>впіймано</p>
+    <img src="shahed.png" alt="">
+    <p>:</p>
+    <p class="p-score">0</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <script>
+        let pole=document.querySelector('.pole')
+        let flying=document.querySelector('.img-bird')
+        let pScore=document.querySelector('.p-score')
+         let x=0
+        flying.onclick=function(){
+           x++;
+           pScore.innerHTML=x;
+        }
+        function move(){
+            let maxLeft,maxTop;
+            maxLeft=pole.clientWidth-flying.clientWidth
+            maxTop=pole.clientHeight-flying.clientHeight
+            let newX=maxLeft*Math.random();//45
+            let newY=maxTop*Math.random();//45
+
+            flying.style.left=newX+'px'
+            flying.style.top=newY+'px'
+        }
+        setInterval(()=>{
+move()
+        },1000);
+    </script>
+</body>
+</html>
