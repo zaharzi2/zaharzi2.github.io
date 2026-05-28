@@ -1,0 +1,304 @@
+img{
+    width: 100%;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    background-image: url(logo.png), linear-gradient(to right, #f3146f, #502dbf );
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+}
+.nav-link{
+    color: aliceblue;
+}
+.padding{
+    margin-top: 30px;
+    align-items: center;
+}
+.text-violet{
+    color: #502dbf;
+    font-weight: 900;
+    
+}
+.text{
+    font-family: "Roboto Flex", sans-serif;
+    background-color: #ffffff67;
+    padding: 10px   ; 
+}
+body{
+    background: linear-gradient(to right, #f3146f, #502dbf);
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+.gfd{
+    padding: 10px;
+}
+.country-p{
+    margin-bottom: 0;
+    text-decoration: underline;
+    color: #540323;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+.cubok{
+    /* height: 1000px; */
+    /* width: 900px; */
+    align-items: center;
+}
+.nav-link{
+    font-weight: 900;
+   font-size: 1.2em;
+   text-transform: capitalize;
+   text-shadow: 0px 0px 5px violet;
+}
+    /* Стилі для адаптивності та оформлення слайдера */
+        .carousel-container {
+            max-width: 800px;
+            margin: 40px auto;
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+            font-family: Arial, sans-serif;
+        }
+
+        .carousel-track {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 100%;
+        }
+
+        .carousel-slide {
+            min-width: 100%;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .carousel-slide img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Інформаційна плашка поверх фото */
+        .slide-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+            color: #fff;
+            padding: 25px 20px;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+        }
+
+        .slide-info h3 {
+            margin: 0 0 5px 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .slide-info p {
+            margin: 0;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        /* Навігаційні кнопки (стрілки) */
+        .carousel-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.3);
+            border: none;
+            color: white;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 50%;
+            font-size: 18px;
+            transition: background 0.3s;
+            z-index: 10;
+        }
+
+        .carousel-btn:hover {
+            background: rgba(255, 255, 255, 0.6);
+        }
+
+        .btn-prev { left: 15px; }
+        .btn-next { right: 15px; }
+        .site-footer {
+    background-color: #0b071e; /* Темно-фіолетовий нічний колір */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 50px 20px 20px 20px;
+    margin-top: 60px;
+    border-top: 4px solid #ff007f; /* Неонова рожева лінія */
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+}
+
+.footer-section h4 {
+    color: #00f0ff; /* Неоновий блакитний для заголовків */
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #b3b0cb;
+    margin: 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #b3b0cb;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff007f; /* Зміна кольору при наведенні */
+}
+
+/* Іконки соцмереж (замість картинок використовуються символи) */
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.social-icons a:hover {
+    background: #00f0ff;
+    color: #0b071e;
+    transform: translateY(-3px);
+}
+
+/* Нижня плашка про авторські права */
+.footer-bottom {
+    max-width: 1100px;
+    margin: 40px auto 0 auto;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: #716e89;
+}
+
+.footer-bottom a {
+    color: #716e89;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.footer-bottom a:hover {
+    color: #ffffff;
+}
+
+/* Адаптивність для мобільних */
+@media (max-width: 600px) {
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .footer-bottom div {
+        margin-left: 0;
+    }
+}
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0b071e; /* Точно такий же колір, як у футера */
+    z-index: 9999; /* Поверх усіх елементів сайту */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Контент всередині */
+.loader-content {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Неонове анімаційне кільце */
+.neon-spinner {
+    width: 70px;
+    height: 70px;
+    border: 5px solid rgba(255, 0, 127, 0.1); /* Світло-рожева основа */
+    border-radius: 50%;
+    border-top: 5px solid #ff007f; /* Яскравий неоновий рожевий */
+    border-right: 5px solid #00f0ff; /* Яскравий неоновий блакитний */
+    animation: spin 1.2s linear infinite;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 0 15px rgba(255, 0, 127, 0.5);
+}
+
+/* Текст під спінером */
+.loader-text {
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Анімація обертання */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Анімація пульсації тексту */
+@keyframes pulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+}
+
+/* Клас, який сховає прелоадер після завантаження */
+.preloader.done {
+    opacity: 0;
+    visibility: hidden;
+}
